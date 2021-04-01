@@ -1,6 +1,9 @@
 # CTMS
 DBMS Project
 
-This project was created by Aditya Yadav.
-2nd Year, B.Tech CSE
-DYPIU, Akurdi, Pune.
+CTMS - Commercial Transport Management System
+
+Database Management System Project:
+
+Contributer:
+Aditya Kamlesh Yadav
