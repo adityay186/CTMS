@@ -1,4 +1,4 @@
-# dbms_project
+# CTMS
 DBMS Project
 
 This project was created by Aditya Yadav.
