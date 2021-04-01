@@ -31,5 +31,5 @@
     <input id="inp" type="button" value="Client" onclick="location.href='client.php';"/>
     <input id="inp" type="button" value="Transporter" onclick="location.href='transporter.php';"/>
     </div>
-    </form>
+    
 </body>
