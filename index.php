@@ -11,7 +11,7 @@
 <!-- Body -->
 <body>
     <!-- Inline CSS -->
-    
+    <style>
     h1 {text-align: center;font-size: 60px;line-height: 2;letter-spacing: 0.35em;}
     h3 {text-align: center;letter-spacing: 0.208em;}
     p {text-align: center;font-size: 30px;font-style: normal;font-weight: 400;letter-spacing: 0.14em;}
