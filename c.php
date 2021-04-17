@@ -220,7 +220,7 @@ include "./pages/newLogic.php"
                     </div>
                     
                 </form>
-                <a href="clientTravel.php" class="inline-flex text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Search for Travel</a>
+                <a href="t.php" class="inline-flex text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Search for Travel</a>
                 <!-- <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
             </div>
         </div>
