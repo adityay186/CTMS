@@ -20,7 +20,7 @@ include "./pages/newLogic.php"
     <header class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-white mb-2 md:mb-0" id="home">
-            <img src="ctms.webp" width="100" height="100" alt="Logo">
+            <img src="ctms.webp" width="50" height="50" alt="Logo">
 
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -213,12 +213,12 @@ include "./pages/newLogic.php"
                         <input type="number" class="form-control" id="TravelContact" name="travelContactNumber">
                     </div> -->
 
-                    <center>
-                        <div class="col-12">
-                            <input type="submit" class="btn btn-primary" name="findForGoods" value="Find">
-                            &nbsp;&nbsp;&nbsp;<input type="reset" class="btn btn-primary" value="Clear">
-                        </div>
-                    </center>
+                    
+                    <div class="col-12">
+                        <input type="submit" class="btn btn-primary" name="findForGoods" value="Find">
+                        &nbsp;&nbsp;&nbsp;<input type="reset" class="btn btn-primary" value="Clear">
+                    </div>
+                    
                 </form>
                 <a href="clientTravel.php" class="inline-flex text-white bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Search for Travel</a>
                 <!-- <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->

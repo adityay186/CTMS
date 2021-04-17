@@ -19,11 +19,11 @@ include "./pages/newLogic.php"
     <header class="text-gray-400 bg-gray-800 body-font">
         <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-white mb-1 md:mb-0" id="home">
-            <img src="ctms.webp" width="100" height="100" alt="Logo">
+            <img src="ctms.webp" width="50" height="50" alt="Logo">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg> -->
-                <span class="ml-3 text-xl">CTMS</span>
+                <!-- <span class="ml-3 text-xl">CTMS</span> -->
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a href="index.php" class="inline-flex text-white bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-600 rounded text-md">Home Page</a>
