@@ -10,9 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
 </head>
-
 <body class="text-gray-400 bg-gray-300 body-font">
-<script type="text/javascript" src="ctms2.js"></script>
+    <script type="text/javascript" src="ctms2.js"></script>
     <header class="text-gray-400 bg-gray-800 body-font">
         <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-white mb-1 md:mb-0" id="home">
@@ -42,6 +41,10 @@
     <section>
         <div class="container px-4 py-20 mx-auto">
             <div class="flex flex-col text-center w-full mb-10">
+            <marquee behavior="scroll" direction="right" scrollamount="25">
+                <img src="giphy.gif" width="150" height="50" alt="Natural" />
+            </marquee>
+                <!-- <img src="giphy.gif" width="300" height="300" alt="Logo"> -->
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Travel</h1>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-gray-800 ">Find the vehicle you want according to your requirements by filling the details below.</p>
             </div>
