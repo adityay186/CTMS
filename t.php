@@ -1,7 +1,3 @@
-<?php
-include "./pages/newLogic.php"
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -16,6 +12,7 @@ include "./pages/newLogic.php"
 </head>
 
 <body class="text-gray-400 bg-gray-300 body-font">
+<script type="text/javascript" src="ctms2.js"></script>
     <header class="text-gray-400 bg-gray-800 body-font">
         <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-white mb-1 md:mb-0" id="home">
@@ -80,33 +77,32 @@ include "./pages/newLogic.php"
                         <label for="inputpickUP" class="form-label text-gray-800">Pickup Point</label>
                         <select id="inputpickUP" class="form-select" name="pickUPTravel">
                             <option>---</option>
-
                             <option>
-                                Borivli
+                                Virar
                             </option>
                             <option>
-                                Bandra
-                            </option>
-                            <option>
-                                CSMT
+                                Borivali
                             </option>
                             <option>
                                 Mumbai Airport
                             </option>
                             <option>
-                                Virar
+                                Bandra
                             </option>
                             <option>
-                                Lonavla
+                                    CSMT
+                            </option>
+                            <option>
+                                Lonavala
                             </option>
                             <option>
                                 Talegaon
                             </option>
                             <option>
-                                Chinchwad
+                                Akurdi
                             </option>
                             <option>
-                                Akurdi
+                                Chinchwad
                             </option>
                             <option>
                                 Pune Airport
@@ -117,38 +113,38 @@ include "./pages/newLogic.php"
                     </div>
                     <div class="col-md-4">
                         <label for="inputDrop" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="inputDrop" class="form-select" name="dropPointTravel">
-                            <option>---</option>
-                            <option>
-                                Borivli
-                            </option>
-                            <option>
-                                Bandra
-                            </option>
-                            <option>
-                                CSMT
-                            </option>
-                            <option>
-                                Mumbai Airport
-                            </option>
-                            <option>
-                                Virar
-                            </option>
-                            <option>
-                                Lonavla
-                            </option>
-                            <option>
-                                Talegaon
-                            </option>
-                            <option>
-                                Chinchwad
-                            </option>
-                            <option>
-                                Akurdi
-                            </option>
-                            <option>
-                                Pune Airport
-                            </option>
+                        <select id="second" class="form-select" name="dropPointTravel">
+                        <option>---</option>
+                        <option>
+                            Virar
+                        </option>
+                        <option>
+                            Borivali
+                        </option>
+                        <option>
+                            Mumbai Airport
+                        </option>
+                        <option>
+                            Bandra
+                        </option>
+                        <option>
+                            CSMT
+                        </option>
+                        <option>
+                            Lonavala
+                        </option>
+                        <option>
+                            Talegaon
+                        </option>
+                        <option>
+                            Akurdi
+                        </option>
+                        <option>
+                            Chinchwad
+                        </option>
+                        <option>
+                            Pune Airport
+                        </option>
 
 
                         </select>
@@ -184,7 +180,6 @@ include "./pages/newLogic.php"
                             <option>Non-Ac</option>
                         </select>
                     </div>
-
                     <div class="col-md-4">
                         <label for="inputCapacity" class="form-label text-gray-800">Number of Passengers</label>
                         <input type="number" class="form-control" id="inputCapacity" name="clientTravelCapacity">
@@ -192,7 +187,7 @@ include "./pages/newLogic.php"
 
                     <div class="col-md-4">
                         <label for="inputCapacity" class="form-label text-gray-800">Distance(in kms)</label>
-                        <input type="number" class="form-control" id="getDistance" name="clientGoodsDistance">
+                        <input type="constant" class="form-control" id="getDistance" name="clientGoodsDistance">
                     </div>
 
                     <!-- <div class="mt-2"> -->
@@ -226,7 +221,7 @@ include "./pages/newLogic.php"
 
                     <center>
                         <div class="col-12">
-                            <input type="submit" class="btn btn-primary" name="findForTravel" value="Find">
+                            <input type="submit" class="btn btn-primary" name="findForTravel" value="Find" onclick="distance()">
                             &nbsp;&nbsp;&nbsp;<input type="reset" class="btn btn-primary" value="Clear">
                         </div>
                     </center>
@@ -238,4 +233,4 @@ include "./pages/newLogic.php"
     </section>
 </body>
 
-</html>
+</html>inputDrop

@@ -1,7 +1,3 @@
-<?php
-include "./pages/newLogic.php"
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -15,6 +11,7 @@ include "./pages/newLogic.php"
 </head>
 
 <body class="text-gray-400 bg-gray-300 body-font">
+    <script type="text/javascript" src="ctms.js"></script>
 
     <!-- <body class="text-gray-400 body-font"> -->
     <header class="text-gray-400 bg-gray-900 body-font">
@@ -51,7 +48,7 @@ include "./pages/newLogic.php"
 
 
 
-                <form class="row g-5 col-md-14" method="GET" action="clientSearch.php">
+                <form class="row g-5 col-md-14" method="GET" action=".php">
 
                     <center>
                         <div class="col-md-4">
@@ -72,85 +69,108 @@ include "./pages/newLogic.php"
                             </select>
                         </div>
                     </center>
-
-                    <div class="col-md-4">
-                        <label for="inputpickUP" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="inputpickUP" class="form-select" name="pickUPGoods">
-                            <option>---</option>
-
-                            <option>
-                                Borivli
-                            </option>
-                            <option>
-                                Bandra
-                            </option>
-                            <option>
-                                CSMT
-                            </option>
-                            <option>
-                                Mumbai Airport
-                            </option>
-                            <option>
-                                Virar
-                            </option>
-                            <option>
-                                Lonavla
-                            </option>
-                            <option>
-                                Talegaon
-                            </option>
-                            <option>
-                                Chinchwad
-                            </option>
-                            <option>
-                                Akurdi
-                            </option>
-                            <option>
-                                Pune Airport
-                            </option>
-
-
-                        </select>
-                    </div>
                     <div class="col-md-4">
                         <label for="inputDrop" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="inputDrop" class="form-select" name="dropPointGoods">
-                            <option>---</option>
+                        <select id="inputpickUP" class="form-select" name="pickUPTravel">
+                                <option>---</option>
+                                <option>
+                                    Virar
+                                </option>
+                                <option>
+                                    Borivali
+                                </option>
+                                <option>
+                                    Mumbai Airport
+                                </option>
+                                <option>
+                                    Bandra
+                                </option>
+                                <option>
+                                    CSMT
+                                </option>
+                                <option>
+                                    Lonavala
+                                </option>
+                                <option>
+                                    Talegaon
+                                </option>
+                                <option>
+                                    Akurdi
+                                </option>
+                                <option>
+                                    Chinchwad
+                                </option>
+                                <option>
+                                    Pune Airport
+                                </option>
 
-                            <option>
-                                Borivli
-                            </option>
-                            <option>
-                                Bandra
-                            </option>
-                            <option>
-                                CSMT
-                            </option>
-                            <option>
-                                Mumbai Airport
-                            </option>
-                            <option>
-                                Virar
-                            </option>
-                            <option>
-                                Lonavla
-                            </option>
-                            <option>
-                                Talegaon
-                            </option>
-                            <option>
-                                Chinchwad
-                            </option>
-                            <option>
-                                Akurdi
-                            </option>
-                            <option>
-                                Pune Airport
-                            </option>
+                        </select>
+                    </div>
+                    <!-- <select name="origin" id="inputpickUP">
+                        <option value=""></option>
+                        <option value="Virar">Virar</option>
+                        <option value="Borivali">Borivali</option>
+                        <option value="Mumbai Airport">Mumbai Airport</option>
+                        <option value="Bandra">Bandra</option>
+                        <option value="CSMT">CSMT</option>
+                        <option value="Lonavala">Lonavala</option>
+                        <option value="Talegaon">Talegaon</option>
+                        <option value="Akurdi">Akurdi</option>
+                        <option value="Chinchwad">Chinchwad</option>
+                        <option value="Pune Airport">Pune Airport</option>
+                    </select> -->
+                    <div class="col-md-4">
+                        <label for="inputDrop" class="form-label text-gray-800">Pickup Point</label>
+                        <select id="second" class="form-select" name="dropPointTravel">
+                                <option>---</option>
+                                <option>
+                                    Virar
+                                </option>
+                                <option>
+                                    Borivali
+                                </option>
+                                <option>
+                                    Mumbai Airport
+                                </option>
+                                <option>
+                                    Bandra
+                                </option>
+                                <option>
+                                    CSMT
+                                </option>
+                                <option>
+                                    Lonavala
+                                </option>
+                                <option>
+                                    Talegaon
+                                </option>
+                                <option>
+                                    Akurdi
+                                </option>
+                                <option>
+                                    Chinchwad
+                                </option>
+                                <option>
+                                    Pune Airport
+                                </option>
 
 
                         </select>
                     </div>
+                    
+                    <!-- <select name="destination" id="second">
+                        <option value=""></option>
+                        <option value="Virar">Virar</option>
+                        <option value="Borivali">Borivali</option>
+                        <option value="Mumbai Airport">Mumbai Airport</option>
+                        <option value="Bandra">Bandra</option>
+                        <option value="CSMT">CSMT</option>
+                        <option value="Lonavala">Lonavala</option>
+                        <option value="Talegaon">Talegaon</option>
+                        <option value="Akurdi">Akurdi</option>
+                        <option value="Chinchwad">Chinchwad</option>
+                        <option value="Pune Airport">Pune Airport</option>
+                    </select> -->
 
 
 
@@ -181,7 +201,7 @@ include "./pages/newLogic.php"
 
                     <div class="col-md-4">
                         <label for="inputCapacity" class="form-label text-gray-800">Distance(in kms)</label>
-                        <input type="number" class="form-control" id="getDistance" name="clientGoodsDistance">
+                        <input type="constant" class="form-control" id="getDistance" name="clientGoodsDistance">
                     </div>
 
                     <!-- <div class="mt-2"> -->
@@ -213,10 +233,11 @@ include "./pages/newLogic.php"
                         <input type="number" class="form-control" id="TravelContact" name="travelContactNumber">
                     </div> -->
 
-                    
                     <div class="col-12">
-                        <input type="submit" class="btn btn-primary" name="findForGoods" value="Find">
-                        &nbsp;&nbsp;&nbsp;<input type="reset" class="btn btn-primary" value="Clear">
+                        
+                        <input type="submit" class="btn btn-primary" name="findForGoods" value="Find" onclick="distance()">
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="reset" class="btn btn-primary" value="Clear">
                     </div>
                     
                 </form>
