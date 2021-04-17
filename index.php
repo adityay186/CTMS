@@ -28,8 +28,8 @@
     <!-- Buttons -->
     <form action="#">
     <div id="container">
-    <input id="inp" type="button" value="Client" onclick="location.href='client.php';"/>
-    <input id="inp" type="button" value="Transporter" onclick="location.href='transporter.php';"/>
+    <input id="inp" type="button" value="Client" onclick="location.href='c.php';"/>
+    <input id="inp" type="button" value="Transporter" onclick="location.href='t.php';"/>
     </div>
     </form>
 </body>
