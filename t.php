@@ -75,7 +75,7 @@
 
                     <div class="col-md-4">
                         <label for="inputpickUP" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="inputpickUP" class="form-select" name="pickUPTravel">
+                        <select id="inputpickUP" class="form-select" name="pickUPTravel" onChange="distance()">
                             <option>---</option>
                             <option>
                                 Virar
@@ -113,7 +113,7 @@
                     </div>
                     <div class="col-md-4">
                         <label for="inputDrop" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="second" class="form-select" name="dropPointTravel">
+                        <select id="second" class="form-select" name="dropPointTravel" onChange="distance()">
                         <option>---</option>
                         <option>
                             Virar
@@ -221,7 +221,7 @@
 
                     <center>
                         <div class="col-12">
-                            <input type="submit" class="btn btn-primary" name="findForTravel" value="Find" onclick="distance()">
+                            <input type="submit" class="btn btn-primary" name="findForTravel" value="Find">
                             &nbsp;&nbsp;&nbsp;<input type="reset" class="btn btn-primary" value="Clear">
                         </div>
                     </center>

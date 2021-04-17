@@ -71,7 +71,7 @@
                     </center>
                     <div class="col-md-4">
                         <label for="inputDrop" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="inputpickUP" class="form-select" name="pickUPTravel">
+                        <select id="inputpickUP" class="form-select" name="pickUPTravel" onChange="distance()">
                                 <option>---</option>
                                 <option>
                                     Virar
@@ -100,9 +100,7 @@
                                 <option>
                                     Chinchwad
                                 </option>
-                                <option>
-                                    Pune Airport
-                                </option>
+                                <option> onclick="distance()"
 
                         </select>
                     </div>
@@ -121,7 +119,7 @@
                     </select> -->
                     <div class="col-md-4">
                         <label for="inputDrop" class="form-label text-gray-800">Pickup Point</label>
-                        <select id="second" class="form-select" name="dropPointTravel">
+                        <select id="second" class="form-select" name="dropPointTravel" onChange="distance()">
                                 <option>---</option>
                                 <option>
                                     Virar
@@ -231,11 +229,11 @@
                     <div class="col-md-5">
                         <label for="TravelContact" class="form-label text-gray-300">Contact Number</label>
                         <input type="number" class="form-control" id="TravelContact" name="travelContactNumber">
-                    </div> -->
+                    </div> --> onclick="distance()"
 
                     <div class="col-12">
                         
-                        <input type="submit" class="btn btn-primary" name="findForGoods" value="Find" onclick="distance()">
+                        <input type="submit" class="btn btn-primary" name="findForGoods" value="Find">
                         &nbsp;&nbsp;&nbsp;
                         <input type="reset" class="btn btn-primary" value="Clear">
                     </div>
