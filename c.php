@@ -99,8 +99,9 @@
                                 <option>
                                     Chinchwad
                                 </option>
-                                <option> onclick="distance()"
-
+                                <option>
+                                    Pune Airport
+                                </option>
                         </select>
                     </div>
                     <!-- <select name="origin" id="inputpickUP">

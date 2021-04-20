@@ -1,6 +1,5 @@
 <!-- Page Title -->
 <title>CTMS</title>
-
 <!-- Image -->
 <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
@@ -19,7 +18,7 @@
     </style>
 
     <!-- Header -->
-    <h1>Welcome to CTMS</h1>
+    <h1>C    T    M    S</h1>
     <h3>(Commercial Transport Management System)</h3>
 
     <!-- Paragraph -->
