@@ -1,6 +1,5 @@
 <?php
-while (true){
-
+function work(){
     $servername = "127.0.0.1";
     $username = "aditya";
     $password = "password123";
@@ -17,13 +16,34 @@ while (true){
     $result = $conn->query($sql);
     
     if ($result->num_rows > 0) {
-      // output data of each row
       while($row = $result->fetch_assoc()) {
-        echo $row["val"];
+        return $row["val"];
       }
     } else {
       echo "0 results";
     }
     $conn->close();
 }
+// function add($a,$b){
+//     $c=$a+$b;
+//     return $c;
+//   }
+    
 ?>
+<script>
+    
+    var val=0;
+    function sc(){
+        var simple = <?php echo work();?>;
+        
+        if (simple!=val){
+            val=simple;
+            alert(simple)
+            // alert("Database Changed");
+        }
+        else{
+            alert("No Changes")
+        }
+    }
+    setInterval(sc, 2000);
+</script>
