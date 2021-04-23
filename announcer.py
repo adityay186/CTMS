@@ -1,6 +1,15 @@
 import mysql.connector
 import time
 import subprocess
+import smtplib
+def mailer():
+    s = smtplib.SMTP('smtp.gmail.com', 587)
+    message = "Your Search Results Are Ready"
+    s.starttls()
+    s.login("adityactms@gmail.com", "myselfaditya")
+    s.sendmail("adityactms@gmail.com", "adityay186@gmail.com", message)
+    s.quit()
+    print("Mail Sent")
 def sendmessage(message):
     subprocess.Popen(['notify-send', message])
     return
@@ -19,10 +28,9 @@ while True:
     
     myresult = mycursor.fetchall()
     x=myresult[0][0]
-    c=0
     if x!=val:
         val=x
-        c=c+1
+        mailer()
         sendmessage("Your search results are ready")
         print("Database Changed")
     else:
