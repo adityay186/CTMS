@@ -1,0 +1,4 @@
+Our Goals:
+1. Triggers.
+2. Views.
+3. BLOB Images.
