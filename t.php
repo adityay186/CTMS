@@ -41,10 +41,6 @@
     <section>
         <div class="container px-4 py-20 mx-auto">
             <div class="flex flex-col text-center w-full mb-10">
-            <marquee behavior="scroll" direction="right" scrollamount="25">
-                <img src="giphy.gif" width="150" height="50" alt="Natural" />
-            </marquee>
-                <!-- <img src="giphy.gif" width="300" height="300" alt="Logo"> -->
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Travel</h1>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-gray-800 ">Find the vehicle you want according to your requirements by filling the details below.</p>
             </div>
