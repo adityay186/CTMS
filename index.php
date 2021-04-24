@@ -22,13 +22,13 @@
     <h3>(Commercial Transport Management System)</h3>
 
     <!-- Paragraph -->
-    <p>Enter As</p>
+    <p>LOGIN AS</p>
 
     <!-- Buttons -->
     <form action="#">
     <div id="container">
-    <input id="inp" type="button" value="Client" onclick="location.href='c.php';"/>
-    <input id="inp" type="button" value="Transporter" onclick="location.href='t.php';"/>
+    <input id="inp" type="button" value="Client" onclick="location.href='/CTMS/Login/index.php';"/>
+    <input id="inp" type="button" value="Transporter" onclick="location.href='';"/>
     </div>
     </form>
 </body>
