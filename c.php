@@ -225,6 +225,10 @@
                         <label for="inputCapacity" class="form-label text-gray-800">Distance(in kms)</label>
                         <input type="constant" class="form-control" id="getDistance" name="clientGoodsDistance">
                     </div>
+                    
+                    <div id="container">
+                    <input id="inp" type="button" value="Upload Image" onclick="location.href='imgconfig_goods.php';"/>
+                    </div>
 
                     <!-- <div class="mt-2"> -->
                     <!-- <span class="text-gray-300">AC Type</span> -->
@@ -256,7 +260,7 @@
                     </div> -->
 
                     <div class="col-12">
-                        
+                        <br></br>
                         <input type="submit" class="btn btn-primary" name="findForGoods" value="Find">
                         &nbsp;&nbsp;&nbsp;
                         <input type="reset" class="btn btn-primary" value="Clear">
