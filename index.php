@@ -29,6 +29,7 @@
     <div id="container">
     <input id="inp" type="button" value="Client" onclick="location.href='/CTMS/Login/index.php';"/>
     <input id="inp" type="button" value="Transporter" onclick="location.href='';"/>
+    <input id="inp" type="button" value="Admin" onclick="location.href='admin/Users/index.php';"/>
     </div>
     </form>
 </body>

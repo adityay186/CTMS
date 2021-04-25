@@ -8,7 +8,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM users"); // using mysqli_query in
 ?>
 
 <html>
-<head>	
+<head>
+	<h1>Manage Users</h1>
 	<title>Homepage</title>
 </head>
 
