@@ -49,7 +49,7 @@
                 }  
                 ?>  
                 </table>  
-                <input type="button" name="insert" id="insert" value="Back" class="btn btn-info" onclick="location.href='c.php';"/>
+                <input type="button" name="insert" id="insert" value="Back" class="btn btn-info" onclick="location.href='t.php';"/>
            </div>  
       </body>  
  </html>  

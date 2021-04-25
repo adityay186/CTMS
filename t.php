@@ -189,6 +189,10 @@
                         <input type="constant" class="form-control" id="getDistance" name="clientGoodsDistance">
                     </div>
 
+                    <div id="container">
+                    <input id="inp" type="button" value="Upload Image" onclick="location.href='imgconfig_travel.php';"/>
+                    </div>
+
                     <!-- <div class="mt-2"> -->
                     <!-- <span class="text-gray-300">AC Type</span> -->
                     <!-- <div class="mt-3">
